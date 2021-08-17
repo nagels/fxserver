@@ -4,6 +4,6 @@ RUN curl https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/4304
 
 FROM scratch
 COPY --from=dwnld /srv/alpine/. /.
-WORKDIR /opt/cfx-server
+WORKDIR C:\Users\admin\Desktop\OneZone-DEV\PlumeESX_120B17.base
 EXPOSE 30120/tcp 30120/udp 40120/tcp
-ENTRYPOINT ["/opt/cfx-server/FXServer"]
+ENTRYPOINT ["C:\Users\admin\Desktop\OneZone-DEV\PlumeESX_120B17.base"]
